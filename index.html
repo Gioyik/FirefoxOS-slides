@@ -1,0 +1,704 @@
+<!DOCTYPE HTML>
+<!-- <html lang="en-US"> -->
+<html lang="en-US" class="fade" class="nonumbers">
+<!-- 
+  ^ la clase "fade" hace que las diapositivas pasen suavemente de una a otra
+ -->
+<!-- <html lang="en-US" class="nonumbers"> -->
+<!-- 
+  Si no quieres números en las diapositivas agrega la clase "nonumbers" al elemento HTML.
+-->
+<head>
+  <meta charset="UTF-8">
+  <title>Firefox OS</title>
+<!-- 
+  Si subes la presentación a la web, asegurate de tener un buen título, este se mostrará en los resultados de las búsquedas y en las redes sociales
+ -->
+  <meta name="viewport" content="width=device-width, user-scalable=yes">
+  <link rel="stylesheet" href="themes/mozilla/styles/style.css">
+  <style type="text/css">
+    div[id$='bullets'].slide > div::after {
+      content: 'Solo para información, No mostrar';
+      background: rgba(200,0,0,0.5);
+      color: #fff;
+      position: absolute;
+      top: 20px;
+      right: 0;
+      padding: 5px 20px;
+      transform: rotate(90deg) translate(52%,-150px);
+      border-radius: 5px;
+    }
+    .full div[id$='bullets'].slide > div::after {
+      animation: wiggle alternate 1s infinite;
+    }
+    @keyframes wiggle {
+      from {
+        transform: rotate(90deg) translate(52%,-150px);
+      }
+      to {
+        transform: rotate(90deg) translate(52%,-160px);
+      }
+    }
+    .slide.shout h2 {
+      font-size: 130px;
+    }
+  </style>
+</head>
+<body class="list">
+
+  <header class="caption">
+    <h1>Firefox OS</h1>
+    <p class="footer">
+      Giovanny Andres Gongora Granada, 
+      <a href="http://twitter.com/Gioyik">@Gioyik</a> - 
+      <a href="mailto:gioyik@mozilla-hispano.org">gioyik@mozilla-hispano.org</a>
+    </p>
+  </header>
+
+  <div id="cover" class="slide h cover"><div>
+    <section>
+      <img src="pictures/fxos/home.png" 
+           class="middle shadow" height="400"
+           alt="High-five at the Mozilla Festival!">
+      <small class="byline">
+        Giovanny Andres Gongora Granada, Firefox OS
+      </small>
+    </section>
+  </div></div>
+
+<!-- end slide block -->
+
+<!-- ===================================================================
+Firefox OS 
+======================================================================== -->
+
+  <div id="zomgfirefoxos" class="slide shout"><div>
+    <section>
+      <header>
+        <h2>Firefox OS</h2>
+      </header>
+    </section>
+  </div></div>
+
+  <div id="firefoxosbullets" class="slide inactive"><div>
+    <section>
+      <header>
+        <h2>Firefox OS</h2>
+      </header>
+      <ul class="longlist">
+        <li>Firefox OS es el único sistema operativo móvil completamente abierto basado en estándares web</li>
+        <li>Está pensado para mercados que no tengan acceso a los sistemas operativos líderes actuales</li>
+        <li>Está basado completamanete en la Web, no hay una capa nativa. Tanto el sistema operativo como las aplicaciones estás escritas en HTML5. El acceso al hardware ocurre a través de un núcleo Linux que es el mismo que utiliza Android</li>
+        <li>HTML5 es un ciudadano de primera clase en Firefox OS, es el único SO que mantiene la promesa que otros dieron años atrás (No se necesita SDK)</li>
+        <li>Todo lo que necesitas saber para crear una aplicación para Firefox OS es conocer HTML5</li>
+        <li>Firefox OS es una realidad, tenemos teléfonos vendidos en España, Polonia, Venezuela y Colombia</li>
+      </ul>
+    </section>
+  </div></div>
+
+  <div id="deserves" class="slide cover h"><div>
+    <section>
+      <header>
+        <h2>La plataforma móvil que HTML5 merece</h2>
+      </header>
+      <img src="pictures/fxos/html5-power.jpg" 
+           alt="Keep calm and trust HTML5" 
+           class="middle shadow" height="450">
+    </section>
+  </div></div>
+
+  <div id="html5" class="slide h cover"><div>
+    <section>
+      <img src="pictures/fxos/html5.png" 
+           class="middle shadow" height="400"
+           alt="High-five at the Mozilla Festival!">
+    </section>
+  </div></div>
+
+  <div id="newmarket" class="slide h cover"><div>
+    <section>
+      <header>
+        <h2>Un nuevo mercado</h2>
+      </header>
+      <img src="pictures/fxos/hobbes-earth.jpg" 
+           alt="World wide web" 
+           class="middle shadow" height="450">
+    </section>
+  </div></div>
+
+  <div id="forall" class="slide"><div>
+    <section>
+      <header>
+        <h2>Mejorando el mundo móvil</h2>
+      </header>
+      <figure class="right shadow frame">
+        <img src="pictures/fxos/nokia-photos.jpg" 
+             alt="Nokia couldn't take photos"
+             height="400">
+      </figure>
+      <ul class="inner">
+        <li class="active">Enfocado a mercados emergentes y nuevos</li>
+        <li>Hardware muy accesible</li>
+        <li>No se necesita tarjeta de crédito, se paga con la factura</li>
+        <li>Tecnologías web por todos lados</li>
+        <li>18 telefónicas asociadas, 4 fabricantes asociados</li>
+      </ul>
+    </section>
+  </div></div>
+
+  <div id="webtech" class="slide cover"><div>
+    <section>
+      <header>
+        <h2>Todo lo que forma parte del SO es tecnología web abierta y propuesto para estándar</h2>
+      </header>
+      <img src="pictures/fxos/firefox-os-emulator.jpg" 
+           alt="firefox os emulator and source" 
+           class="middle shadow" height="450">
+    </section>
+  </div></div>
+
+<!-- ===================================================================
+APLICIACIONES DE LA WEB ABIERTA 
+======================================================================== -->
+
+  <div id="zomgopenapps" class="slide shout"><div>
+    <section>
+      <header>
+        <h2>Aplicaciones de la Web abierta</h2>
+      </header>
+    </section>
+  </div></div>
+
+  <div id="fxapps" class="slide"><div>
+    <section>
+      <header>
+        <h2 align="center">Webapps por todos lados!</h2>
+      </header>
+      <img src="pictures/fxos/apps.png" class="middle" height="400" 
+           alt="Firefox OS apps">
+      <p class="demourl">
+        <a href="https://marketplace.firefox.com/developers/docs/concept">¿Qué hace que una aplicación sea genial?</a>
+      </p>
+    </section>
+  </div></div>
+
+   <div id="appsbullets" class="slide inactive"><div>
+    <section>
+      <header>
+        <h2 align="center">¿Aplicaciones Firefox OS?</h2>
+      </header>
+      <ul class="longlist">
+        <li>Las aplicaciones de Firefox OS son aplicaciones de HTML5 con un archivo extra de manifiesto</li>
+        <li>El manifiesto define el acceso al hardware que necesitas, los íconos y la ubicación del código</li>
+        <li>Están resguardados por un modelo de seguridad de tres capas, permitiendo más o menos acceso dependiendo de la ubicación de la aplicación (alojada vs. enviada desde el marketplace)</li>
+        <li>Funcionan cuando no tienes conexión y funcionan a través de otras plataformas (cuando se preparan para eso)</li>
+        <li>Puedes encontrarlas e instalarlas desde la web o desde el marketplace</li>
+      </ul>
+      <footer class="notes">
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="manifest" class="slide"><div>
+    <section>
+      <header>
+        <h2 align="center">El archivo manifest</h2>
+      </header>
+      <pre>
+        <code>{</code>
+        <code>  "name": "Mi Aplicación",</code>
+        <code>  "description": "La descripción del uso",</code>
+        <code>  "launch_path": "/",</code>
+        <code>  "icons": { "128": "/img/icon-128.png" },</code>
+        <code>  "developer": {</code>
+        <code>    "name": "Tu nombre u organización",</code>
+        <code>    "url": "http://your-homepage-here.org"</code>
+        <code>  }</code>
+        <code>}</code>
+      </pre>
+    </section>
+  </div></div>
+
+  <div id="threekinds" class="slide"><div>
+    <section>
+      <header>
+        <h2 align="center">Tres niveles de acceso&hellip;</h2>
+      </header>
+      <ul>
+        <li><mark>Aplicaciones alojadas</mark> - guardadas en tu servidor, fácil de actualizar, acceso limitado.</li>
+        <li><mark>Aplicaciones privilegiadas</mark> - revisadas por el equipo de revisores del marketplace, empaquetadas y firmadas</li>
+        <li><mark>Aplicaciones certificadas</mark> - parte del SO, solo de Mozilla y asociados</li>
+      </ul>
+      <p class="demourl"><a href="https://developer.mozilla.org/en-US/docs/Apps/App_permissions">App permissions</a></p>
+    </section>
+  </div></div>
+
+<!-- ===================================================================
+WEB APIS
+======================================================================== -->
+
+  <div id="zomgapis" class="slide shout"><div>
+    <section>
+      <header>
+        <h2>WebAPIs</h2>
+      </header>
+    </section>
+  </div></div>
+
+  <div id="webapis" class="slide h"><div>
+    <section>
+      <header>
+        <h2 align="center">Web APIs</h2>
+      </header>
+      <img src="pictures/fxos/webapiwiki.png" height="400" class="middle shadow" alt="WebAPI wiki">
+      <p class="demourl">
+        <a href="https://wiki.mozilla.org/WebAPI">Wiki de las WebAPI</a>
+      </p>      
+    </section>
+  </div></div>
+
+   <div id="webapibullets" class="slide inactive"><div>
+    <section>
+      <header>
+        <h2>Web APIs</h2>
+      </header>
+      <ul class="longlist">
+        <li>Una especificación abierta para acceder al hardware de los dispositivos</li>
+        <li>Creadas con y enviadas a los estándares y otros desarrolladores de navegadores</li>
+        <li>Una forma de interactuar a través de JavaScript con el dispositivo</li>
+        <li>A través de eventos - cada acceso tiene un manejador de éxito o fracaso con un informe completo para saber qué salió mal</li>
+        <li>Protegido con un modelo de seguridad de tres capas que permite mayor o menor acceso dependiendo de la ubicación de la aplicación (alojada vs. brindada por el marketplace)</li>
+      </ul>
+      <p class="demourl">
+        <a href="https://wiki.mozilla.org/WebAPI">Wiki de las WebAPI</a>
+      </p>      
+    </section>
+  </div></div>
+
+   <div id="webapilist" class="slide"><div>
+    <section>
+      <header>
+        <h2 align="center">Web APIs (aplicaciones alojadas)</h2>
+      </header>
+      <ul class="inline">
+        <li>API vibración</li>
+        <li>Orientación de la pantalla</li>
+        <li>Geolocalización API</li>
+        <li>Control del mouse API</li>
+        <li>WebApps abiertas</li>
+        <li>Información de la red API</li>
+        <li>Estado de la batería API</li>
+        <li>Alarma API</li>
+        <li>Envio de notificaciones API</li>
+        <li>WebFM API / FMRadio</li>
+        <li>Pagos por Web</li>
+        <li>IndexedDB</li>
+        <li>Sensor de luz ambiente</li>
+        <li>Sensor de proximidad</li>
+        <li>Notificaciones</li>
+      </ul>
+      <p class="demourl">
+        <a href="https://hacks.mozilla.org/2013/02/using-webapis-to-make-the-web-layer-more-capable/">Usar WebAPIs para hacer ampliar la capacidad de la capa web</a>
+      </p>      
+    </section>
+  </div></div>
+
+   <div id="webapilistprivileged" class="slide"><div>
+    <section>
+      <header>
+        <h2 align="center">Web APIs (aplicaciones privilegiadas)</h2>
+      </header>
+      <ul>
+        <li>Memoria del dispositivo API</li>
+        <li>Navegador API</li>
+        <li>TCP Socket API</li>
+        <li>Contactos API</li>
+        <li>systemXHR</li>
+      </ul>
+      <p class="demourl">
+        <a href="https://hacks.mozilla.org/2013/02/using-webapis-to-make-the-web-layer-more-capable/">Usar WebAPIs para hacer ampliar la capacidad de la capa web</a>
+      </p>      
+    </section>
+  </div></div>
+
+   <div id="webapilistcertified" class="slide"><div>
+    <section>
+      <header>
+        <h2 align="center">Web APIs (aplicaciones certificadas)</h2>
+      </header>
+        <ul class="inline">
+          <li>WebTelephony</li>
+          <li>WebSMS</li>
+          <li>Espera API</li>
+          <li>Opciones API</li>
+          <li>Adminstración de energía API</li>
+          <li>Conexión móvil API</li>
+          <li>Información WiFi API</li>
+          <li>WebBluetooth</li>
+          <li>Permisos API</li>
+          <li>Estadísticas de red API</li>
+          <li>Cámara API</li>
+          <li>Fecha/Reloj API</li>
+          <li>Atención de la pantalla</li>
+          <li>Correo de voz</li>
+        </ul>
+     <p class="demourl">
+        <a href="https://hacks.mozilla.org/2013/02/using-webapis-to-make-the-web-layer-more-capable/">Usar WebAPIs para hacer ampliar la capacidad de la capa web</a>
+      </p>      
+    </section>
+  </div></div>
+
+<!-- ===================================================================
+WEB ACTIVITIES
+======================================================================== -->
+
+  <div id="zomgactivities" class="slide shout"><div>
+    <section>
+      <header>
+        <h2>Web Activities</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="webactbullets" class="slide inactive"><div>
+    <section>
+      <header>
+        <h2>Web Activities</h2>
+      </header>
+      <ul class="longlist">
+        <li>Una propuesta para tener acceso al hardware manteniendo al usuario con el control en lugar de autentificar en su nombre</li>
+        <li>Comparabl e a Android Intents, pero con un horizonte más limitado que tiene más sentido en la web</li>
+        <li>Una técnica para crear un ecosistema de aplicaciones en el dispositivo, las aplicaciones pueden registrarse como con la posibilidad de brindar ciertas tareas y otras aplicaciones pueden usarlas</li>
+        <li>Una forma simpre de acceder al hardware e información sin tener que empaquetar tu aplicación y enviarla al marketplace</li>
+        <li>Muy seguro ya que no sucede nada sin que el usuario lo inicie</li>
+      </ul>
+      <p class="demourl">
+        <a href="https://wiki.mozilla.org/WebAPI/WebActivities">WebActivies Wiki</a>
+      </p>      
+    </section>
+  </div></div>
+
+  <div id="activities" class="slide"><div>
+    <section>
+      <header>
+        <h2 align="center">Web activities</h2>
+      </header>
+      <ul class="lots">
+        <li>configure</li>
+        <li>costcontrol</li>
+        <li>dial</li>
+        <li>open</li>
+        <li>pick</li>
+        <li>record</li>
+        <li>save-bookmark</li>
+        <li>share</li>
+        <li>view</li>
+      </ul>
+    </section>
+  </div></div>
+
+  <div id="android" class="slide"><div>
+    <section>
+      <header>
+        <h2 align="center">Activities y aplicaciones alojadas en Android</h2>
+      </header>
+      <figure class="middle shadow swing frame">
+        <img src="pictures/fxos/foxkeh-android.png" 
+             alt="Foxkeh loves android">
+      </figure>
+    </section>
+  </div></div>
+
+<!-- ===================================================================
+DYNAMIC APP SEARCH
+======================================================================== -->
+
+  <div id="zomgsearch" class="slide shout"><div>
+    <section>
+      <header>
+        <h2>Búsqueda dinámica de aplicaciones</h2>
+      </header>
+    </section>
+  </div></div>
+
+  <div id="dasbullets" class="slide inactive"><div>
+    <section>
+      <header>
+        <h2>Búsqueda dinámica de aplicaciones</h2>
+      </header>
+      <ul class="longlist">
+        <li class="active">La interfaz de búsqeuda de Firefox OS no solo busca nombres de aplicaciones o contenido en tu dispositivo</li>
+        <li>También busca coincidencias con aplicaciones por temática.</li>
+        <li>Por ejemplo, puedes escribir el título de una película y encontrarás aplicaciones relacionadas con películas</li>
+        <li>Estos resultados de aplicaciones están preparados para diferentes mercados, lo que significa que no encontrarás Netflix entre las opciones, si no está dispoinble en tu país.</li>
+      </ul>
+    </section>
+  </div></div>
+
+  <div id="dasforusersbullets" class="slide inactive"><div>
+    <section>
+      <header>
+        <h2>Búsqueda dinámica de aplicaciones para el usuario</h2>
+      </header>
+      <ul class="longlist">
+        <li class="active">Los usuarios no necesitan saber el nombre de la aplicación, si no que realizan la búsqeuda por lo que les interesa</li>
+        <li>Las aplicaciones son realmente "probar antes de comprar": al hacer clic en uno de los resultados de la lista abrirá la versión preparada para dispositivos móviles de la aplicación. Sin necesidad de descargar, instalar o desinstalar.</li>
+        <li>Una vez que el usuario está contento con la aplicación, pueden hacer un clic largo para instalarla y obtener todos los beneficios de una aplicación de la web abierta</li>
+        <li>El usuario puede usar la aplicación una sola vez, sin que queden registros en el dispositivo</li>
+      </ul>
+    </section>
+  </div></div>
+
+  <div id="dasfordevelopersbullets" class="slide inactive"><div>
+    <section>
+      <header>
+        <h2>Búsqueda dinámica de aplicaciones para desarrolladores</h2>
+      </header>
+      <ul class="longlist">
+        <li class="active">Tu aplicación se encontrará por lo que haga, no por el nombre o la publicidad cara que puedas haber puesto en ella.</li>
+        <li>La versión en HTML5 de tu aplicación es tu publicidad, nada se desperdicia</li>
+        <li>Encuentras usuarios rápidamente que prueban la aplicación sin tener que descargarla ni instalarla</li>
+        <li>Puedes convertirte en la aplicación local más importante de una temática, sin tener que competir con otros en mercados cerrados</li>
+      </ul>
+    </section>
+  </div></div>
+
+  <div id="everything" class="slide"><div>
+    <section>
+      <header>
+        <h2 align="center">Modo live</h2>
+      </header>
+       <video class="middle" height="450" controls>
+        <source src="pictures/fxos/dynamicsearch.mp4"  type="video/mp4"></source>
+        <source src="pictures/fxos/dynamicsearch.webm"  type="video/webm"></source>
+      </video>     
+    </section>
+  </div></div>
+
+<!-- ===================================================================
+TOOLS 
+======================================================================== -->
+
+  <div id="zomgtools" class="slide shout"><div>
+    <section>
+      <header>
+        <h2>Herramientas</h2>
+      </header>
+    </section>
+  </div></div>
+
+  <div id="toolsbullets" class="slide inactive"><div>
+    <section>
+      <header>
+        <h2>Herramientas para Firefox OS / HTML5</h2>
+      </header>
+      <ul class="longlist">
+        <li>Al contrario de iOS y Android, no hay un SDK o conjunto de IDEs/herramientas para Firefox OS.</li>
+        <li>Las aplicaciones de Firefox OS son aplicaciones de HTML5, y nunca tendremos un conjunto de herramientas definitivas para escribir HTML</li>
+        <li>Dicho esto, hay algunas cosas que harán tu vida más fácil y que te permitirán empezar más rápidamente</li>
+        <li>Muchas de ellas vienen con el navegador, o como complementos del navegador. De esa forma podrás usar la computadora con la que te sientes cómodo para desarrollar el código</li>
+        <li>No necesitas un un dispositivo con Firefox OS para empezar, posiblemente necesites uno para probar la interacción y el rendimiento</li>
+        <li>Esto es algo que evoluciona, más herramientas están en camino</li>
+      </ul>
+    </section>
+  </div></div>
+
+  <div id="tools2bullets" class="slide inactive"><div>
+    <section>
+      <header>
+        <h2>Herramientas para Firefox OS / HTML5</h2>
+      </header>
+      <ul class="longlist">
+        <li>Mozilla tiene algunas cosas en el espacio de las herramientas</li>
+        <li>Asegurate de mostrar las herramientas de desarrollo que se encuentran en Firefox (NO, y repito, NO Firebug) y la vista de modo adaptable que permite cambiar el tamaño del navegador al tamaño del teléfono</li>
+        <li>Muestra el simulador funcionando, cambai alguno de los CSS para mostrar que las aplicaciones son solo sitios web</li>
+        <li>Asegurate de comentar que los componentes del SO son para Gaia, no para cualquier aplicación externa.</li>
+      </ul>
+    </section>
+  </div></div>
+
+  <div id="devtools" class="slide cover h"><div>
+    <section>
+      <header>
+        <h2>Los navegadores son editores</h2>
+      </header>
+      <img src="pictures/fxos/devtools.jpg" 
+           alt="Developer tools" 
+           class="middle">
+    </section>
+  </div></div>
+
+  <div id="fxossimulator" class="slide h"><div>
+    <section>
+      <header>
+        <h2 align="center">Simulador de Firefox OS</h2>
+      </header>
+      <img src="pictures/fxos/simulator.png" 
+           alt="Simulator" 
+           class="middle shadow" height="400">
+      <p class="demourl">
+        <a href="https://addons.mozilla.org/en-US/firefox/addon/firefox-os-simulator/">
+          Simulador de Firefox OS
+        </a>
+      </p>
+    </section>
+  </div></div>
+
+  <div id="buildingfirefoxos" class="slide"><div>
+    <section>
+      <header>
+        <h2 align="center">Componentes de interfaz de Firefox</h2>
+      </header>
+      <img src="pictures/fxos/buildingfirefoxos.png" 
+           alt="Building Firefox OS" 
+           class="middle shadow" height="400">
+      <p class="demourl">
+        <a href="http://buildingfirefoxos.com">Building Blocks FirefoxOS</a>
+      </p>
+    </section>
+  </div></div>
+
+  <div id="flathead" class="slide h"><div>
+    <section>
+      <header>
+        <h2 align="center">Mozilla AppMaker rocks! \o/</h2>
+      </header>
+      <img src="pictures/fxos/appmaker.png" 
+           alt="Mozilla Flathead" 
+           class="middle shadow" height="400">
+      <p class="demourl">
+        <a href="http://appmaker.mozillalabs.com/">
+          http://appmaker.mozillalabs.com
+        </a>
+      </p>
+    </section>
+  </div></div>
+
+  <div id="native" class="slide"><div>
+    <section>
+      <header>
+        <h2 align="center">HTML5 a código nativo</h2>
+      </header>
+      <img src="pictures/fxos/phonegapdiagram.png" 
+           alt="Phonegap" 
+           class="middle" height="400">
+       <p class="demourl">
+       <a href="http://build.phonegap.com/">http://build.phonegap.com/</a>
+     </p>    
+    </section>
+  </div></div>
+
+<!-- ===================================================================
+RECURSOS INFORMATIVOS 
+======================================================================== -->
+  
+  <div id="zomgresources" class="slide shout"><div>
+    <section>
+      <header>
+        <h2 align="center">Recursos</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="resourcesbullets" class="slide inactive"><div>
+    <section>
+      <header>
+        <h2>Recursos para comentar</h2>
+      </header>
+      <ul class="longlist">
+        <li><a href="http://www.mozilla.org/en-US/firefox/os/">http://www.mozilla.org/en-US/firefox/os/</a> - el sitio oficial para usuarios finales de Firefox OS</li>
+        <li><a href="https://marketplace.firefox.com/">https://marketplace.firefox.com/</a> - donde conseguir aplicaciones de Firefox OS</li>
+        <li><a href="https://marketplace.firefox.com/developers/">https://marketplace.firefox.com/developers/</a> - el centro de información para desarrolladores del marketplace, mucha información sobre cómo diseñar una aplicación, aplicaciones de demostración para descargar e información de cómo enviar tu aplicación.</li>
+        <li><a href="https://hacks.mozilla.org/category/firefox-os/">https://hacks.mozilla.org/category/firefox-os/</a> - El blog de Mozilla Hacks con mucha información sobre cómo escribir código para Firefox OS y cómo instalarlo</li>
+        <li><a href="https://hacks.mozilla.org/category/videoseries/">https://hacks.mozilla.org/category/videoseries/</a> son una serie de entrevistas en videos que muestran las distintas características de Firefox OS</li>
+        <li><a href="https://developer.mozilla.org/en/docs/Mozilla/Firefox_OS">https://developer.mozilla.org/en/docs/Mozilla/Firefox_OS</a> - la Wiki de Firefox OS</li>
+      </ul>
+    </section>
+  </div></div>
+
+  <div id="fxoscom" class="slide"><div>
+    <section>
+      <header>
+        <h2 align="center">Vistazo a Firefox OS</h2>
+      </header>
+        <img src="pictures/fxos/enduser-fxos.jpg" 
+             alt="Firefox OS for end users" 
+             class="middle shadow" height="400">
+        <p class="demourl">
+          <a href="http://www.mozilla.org/en-US/firefox/os/">http://www.mozilla.org/en-US/firefox/os/</a>
+        </p>
+    </section>
+  </div></div>
+
+  <div id="marketplace" class="slide"><div>
+    <section>
+      <header>
+        <h2 align="center">Firefox OS Marketplace</h2>
+      </header>
+        <img src="pictures/fxos/marketplace.jpg" alt="Firefox OS Marketplace" 
+             class="middle shadow">
+        <p class="demourl">
+          <a href="https://marketplace.firefox.com">https://marketplace.firefox.com/</a>
+        </p>
+    </section>
+  </div></div>
+  
+  <div id="hacksblog" class="slide"><div>
+    <section>
+      <header>
+        <h2 align="center">El blog de Hacks</h2>
+      </header>
+        <img src="pictures/fxos/hacksblog.jpg" alt="Hacks Blog" 
+             class="middle shadow" height="400">
+        <p class="demourl">
+          <a href="https://hacks.mozilla.org/category/firefox-os/">https://hacks.mozilla.org/category/firefox-os/</a>
+        </p>
+    </section>
+  </div></div>
+  
+  <div id="fxoswiki" class="slide"><div>
+    <section>
+      <header>
+        <h2 align="center">Mozilla Developer Network</h2>
+      </header>
+        <img src="pictures/fxos/fxoswiki.jpg" alt="Firefox OS Wiki" 
+             class="middle shadow" height="400">
+        <p class="demourl">
+          <a href="https://developer.mozilla.org/en/docs/Mozilla/Firefox_OS">https://developer.mozilla.org/en/docs/Mozilla/Firefox_OS</a>
+        </p>
+    </section>
+  </div></div>
+
+
+
+
+<!-- ===================================================================
+AND… I'M SPENT
+======================================================================== -->
+
+  <div id="thanks" class="slide"><div>
+    <section>
+      <header>
+        <h2 align="center">Gracias</h2>
+      </header>
+      <img src="pictures/fxos/baracktocat.jpg" class="right" alt="Red panda (Firefox)" height="400px" width="400px">
+      <ul class="nobull">
+        <li>Giovanny A. Gongora G.</li>
+        <li><strong>Charla:</strong> Firefox OS</li>
+        <li><strong>Twitter:</strong> <a href="http://twitter.com/Gioyik">@Gioyik</a></li>
+        <li><strong>Slides</strong>: {slideurl}</li>
+      </ul>
+    </section>
+  </div></div>
+
+  <!--
+    Para esconder la barra de progreso de la presentación, borra el elemento con la clase progress.
+    -->
+  <script src="scripts/script.js"></script>
+  <!-- Copyright © 2010–2012 Vadim Makeev — pepelsbey.net -->
+</body>
+</html>
